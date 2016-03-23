@@ -1,0 +1,6 @@
+{
+  "name": "Unity Cheat Loader",
+  "tagline": "A Cheat Loader for all unity games using github",
+  "body": "###A Unity Cheat Loader\r\nPulls cheats from Github and injects them.\r\n\r\n### Supported games\r\n* The Forest\r\n* WarMode\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
