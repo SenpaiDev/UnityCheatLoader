@@ -30,17 +30,16 @@ namespace UnityLoader {
 
         string downloaddll(string findcheat) {
             string cheatname = findcheat.Replace(" ", "_");
-            client.DownloadFile("https://raw.githubusercontent.com/SenpaiDev/UnityCheatLoader/Repo/Cheat_" + cheatname + "/" + cheatname + ".dll", Path.GetTempPath() + "Cheat_" + cheatname + ".dll");
+            client.DownloadFile("https://github.com/SenpaiDev/UnityCheatLoader/blob/Repo/Cheat_"+cheatname+"/"+cheatname+".dll?raw=true", Path.GetTempPath() + "\\"+ "Cheat_" + cheatname + ".dll");
             Console.Write("Downloaded");
             return (Path.GetTempPath() + "Cheat_" + cheatname + ".dll");
             
         }
 
         private void Form1_DoubleClick(object sender, EventArgs e) {
-            if(listBox1.SelectedItem != null) {
-                DllInjector.GetInstance.Inject(getprocname((string)listBox1.SelectedItem), downloaddll((string)listBox1.SelectedItem));   
+            if (listBox1.SelectedItem != null){
+                DllInjector.GetInstance.Inject(getprocname((string)listBox1.SelectedItem), downloaddll((string)listBox1.SelectedItem));
             }
-
         }
     }
 }
