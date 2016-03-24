@@ -73,8 +73,8 @@ namespace Cheat_Warmode {
                 GUILayout.BeginHorizontal();
                 GUILayout.BeginHorizontal();
                 if (Playert) {
-                    if (GUILayout.Button("Speedhack")) {
-                        Main.ModList["Speedhack"].Toggle();
+                    if (GUILayout.Button("StatFucker")) {
+                        Main.ModList["StatFucker"].Toggle();
                     }
                     if (GUILayout.Button("Noclip")) {
                         Main.ModList["Noclip"].Toggle();

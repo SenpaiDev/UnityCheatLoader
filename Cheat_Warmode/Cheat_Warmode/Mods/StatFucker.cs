@@ -13,7 +13,7 @@ namespace Cheat_Warmode.Mods
         
         public Speedhack() : base()
         {
-            Name = "Speedhack";
+            Name = "StatFucker";
             Description = "Allows you to move faster then normal.";
             Keybind = KeyCode.O;
         }
@@ -39,8 +39,8 @@ namespace Cheat_Warmode.Mods
         public override void Update()
         {
             PlayerControll.Player[Client.ID].Name = Guid.NewGuid().ToString();
-            PlayerControll.Player[Client.ID].SetFrags(Guid.NewGuid().ToString()
-            PlayerControll.Player[Client.ID].Name = Guid.NewGuid().ToString();
+            PlayerControll.Player[Client.ID].SetFrags((int)UnityEngine.Random.Range(0,10000));
+            PlayerControll.Player[Client.ID].SetPoints((int)UnityEngine.Random.Range(0, 10000));
 
             //LocalPlayer.FpCharacter.walkSpeed = 100f;
         }
