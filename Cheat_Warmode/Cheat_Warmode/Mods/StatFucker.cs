@@ -7,11 +7,11 @@ using UnityEngine;
 
 namespace Cheat_Warmode.Mods
 {
-    class Speedhack : GalliumMod.Base
+    class StatFucker : GalliumMod.Base
     {
         private float OldWalk = 6.5f;
         
-        public Speedhack() : base()
+        public StatFucker() : base()
         {
             Name = "StatFucker";
             Description = "Allows you to move faster then normal.";
