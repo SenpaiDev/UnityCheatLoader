@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Cheat_Warmode")]
+[assembly: AssemblyTitle("Gallium")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Cheat_Warmode")]
+[assembly: AssemblyProduct("Gallium")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("133033a5-3902-41b4-bc7d-85e55124ad96")]
+[assembly: Guid("c90bfc45-26c6-48b0-980e-857017be7246")]
 
 // Version information for an assembly consists of the following four values:
 //
